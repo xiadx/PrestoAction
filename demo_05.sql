@@ -1,4 +1,4 @@
---时长 //mdp.mafengwo.cn/mql?sid=533e84bc-f268-4a08-ac45-1f46f29fae1e&engine=PRESTO
+--时长 https://mdp.mafengwo.cn/mql?sid=533e84bc-f268-4a08-ac45-1f46f29fae1e&engine=PRESTO
 select
     dt
     ,round(avg(sum_duration),2) as avg_duration

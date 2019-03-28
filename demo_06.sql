@@ -1,4 +1,4 @@
---次日留存 //mdp.mafengwo.cn/mql?sid=0302a812-689e-4f3d-9c3e-a2b661ded5f4&engine=PRESTO
+--次日留存 https://mdp.mafengwo.cn/mql?sid=0302a812-689e-4f3d-9c3e-a2b661ded5f4&engine=PRESTO
 select
     date_format(date_add('day', +1, date_parse(t1.dt,'%Y%m%d')),'%Y%m%d') as dt
     ,count(distinct t2.device_id) * 1.0000 / count(distinct t1.device_id) as retention

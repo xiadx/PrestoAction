@@ -1,4 +1,4 @@
---信息流曝光 //mdp.mafengwo.cn/mql?sid=cf64fb6a-f023-4ed3-a2cc-7921cde4f56c&engine=PRESTO
+--信息流曝光 https://mdp.mafengwo.cn/mql?sid=cf64fb6a-f023-4ed3-a2cc-7921cde4f56c&engine=PRESTO
 select
     dt
     ,count(distinct device_id) as uv

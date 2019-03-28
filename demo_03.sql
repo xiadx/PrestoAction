@@ -1,4 +1,4 @@
---信息流点击 //mdp.mafengwo.cn/mql?sid=0b2e71ff-e998-49b8-8f5f-bb5f89ef3c72&engine=PRESTO
+--信息流点击 https://mdp.mafengwo.cn/mql?sid=0b2e71ff-e998-49b8-8f5f-bb5f89ef3c72&engine=PRESTO
 select 
     dt
     ,count(distinct device_id) as uv

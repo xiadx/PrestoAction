@@ -1,4 +1,4 @@
---互动行为 //mdp.mafengwo.cn/mql?sid=33bb6cf8-5514-434c-bc88-1efaaa10c098&engine=PRESTO  
+--互动行为 http://mdp.mafengwo.cn/mql?sid=33bb6cf8-5514-434c-bc88-1efaaa10c098&engine=PRESTO  
 select
     dt
     ,count(distinct device_id) as uv
