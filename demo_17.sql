@@ -1,4 +1,4 @@
---show dt, cid, pv, uv, pi https://mdp.mafengwo.cn/mql?sid=4725c754-6c63-42b1-b5a0-6b598a134139&engine=PRESTO
+--click dt, cid, pv, uv, pi https://mdp.mafengwo.cn/mql?sid=4725c754-6c63-42b1-b5a0-6b598a134139&engine=PRESTO
 with click as(
 select
 	dt
